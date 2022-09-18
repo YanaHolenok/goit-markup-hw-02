@@ -29,7 +29,6 @@ body{
         font-size: 26px;
         line-height: 31px;
         letter-spacing: 0.03em;
-    
         color:var(--second-color);
 }
 .header-accent{
@@ -47,7 +46,6 @@ body{
         font-size: 14;
         line-height: calc(16/14);
         letter-spacing: 0.02em;
-    
         color: var(--primary-text-color);
 }
 .header-tel{
@@ -55,7 +53,6 @@ body{
         font-weight: 500;
         line-height: calc(16/14);
         letter-spacing: 0.02em;
-    
         color: var(--primary-text-color);
 }
 .header-nav-link:hover, .header-nav-link:focus {
@@ -81,7 +78,6 @@ body{
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-    
         color: #FFFFFF;
 
 }
@@ -131,7 +127,6 @@ body{
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
-
     color: var(--second-color);
 }
 /* Section 4*/
@@ -150,7 +145,6 @@ body{
         line-height: calc(19/16);
         text-align: center;
         letter-spacing: 0.03em;
-    
         color: var(--second-color);
 }
 .our-team-text{
@@ -177,6 +171,7 @@ body{
     color: var(--accent-color);
 }
 .footer-address{
+        font-style: normal;
         font-weight: 400;
         font-size: 14;
         line-height: calc(24/14);
