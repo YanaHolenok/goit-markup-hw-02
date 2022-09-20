@@ -41,6 +41,9 @@ body{
         color:var(--second-color);
 
 }
+.current{
+    color: var(--accent-color);
+}
 .contact-links {
         font-weight: 500;
         line-height: calc(16/14);
@@ -102,6 +105,7 @@ body{
     margin: -1px;
 }
 .benefits-title{
+        font-size: inherit;
         line-height: calc(16/14);
         text-transform: uppercase;
         color: var(--second-color);
@@ -118,7 +122,7 @@ body{
     color: var(--second-color);
 }
 /* Section 4*/
-.team-specialist{
+.team-name{
         font-weight: 500;
         font-size: 16px;
         line-height: calc(19/16);
@@ -151,7 +155,7 @@ body{
 }
 .footer-contacts{
     line-height: calc(24/14);
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);;
 }
 .footer-contacts:hover, .footer-contacts:focus {
     color: var(--accent-color);
@@ -174,11 +178,13 @@ body{
     }
 
 .project-name{
+        font-size: 18px;
         line-height: calc(36/18);
         letter-spacing: 0.06em;
         color: var(--second-color);
 }
 .project-text{
+        font-size: 16px;
         line-height: calc(30/16);
         color: var(--primary-text-color);
 }
